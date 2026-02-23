@@ -1,0 +1,2398 @@
+{
+  "suppliers": [
+    {
+      "code": "CPY_A01",
+      "name": "Youdingzhi Textile",
+      "category": "Plush Toys"
+    },
+    {
+      "code": "CPY_A02",
+      "name": "Weihong Toys",
+      "category": "Plush Toys"
+    },
+    {
+      "code": "CPY_A03",
+      "name": "Minjin International",
+      "category": "Plush Toys"
+    },
+    {
+      "code": "CPY_B01",
+      "name": "Tong Qin Qin Textile",
+      "category": "Apparels"
+    },
+    {
+      "code": "CPY_B02",
+      "name": "石家庄优跃纺织品有",
+      "category": "Apparels"
+    },
+    {
+      "code": "CPY_Y01",
+      "name": "台州市路桥国久二龙包装有限公司",
+      "category": "Accessory"
+    },
+    {
+      "code": "CPY_Y02",
+      "name": "温州凯优印刷有限公司",
+      "category": "Accessory"
+    },
+    {
+      "code": "CPY_Y03",
+      "name": "Tong Qin Qin Textile",
+      "category": "Accessory"
+    },
+    {
+      "code": "CPY_Y04",
+      "name": "顺意布艺",
+      "category": "Accessory"
+    },
+    {
+      "code": "CPY_P02",
+      "name": "温州义铭工艺品有限公司",
+      "category": "Packaging"
+    },
+    {
+      "code": "CPY_P03",
+      "name": "东台市振合包装材料有限公司",
+      "category": "Packaging"
+    },
+    {
+      "code": "CPY_P04",
+      "name": "国原包装(东莞)有限公司",
+      "category": "Packaging"
+    },
+    {
+      "code": "CPY_P05",
+      "name": "广州曼联包装",
+      "category": "Packaging"
+    },
+    {
+      "code": "CPY_P06",
+      "name": "泉州市冠宇机械有限公司",
+      "category": "Packaging"
+    },
+    {
+      "code": "CPY_Z01",
+      "name": "深圳市金瑞创新辅料有限公司",
+      "category": "Auxiliary Materials"
+    },
+    {
+      "code": "CPY_Z02",
+      "name": "义乌市往腾科技有限公司",
+      "category": "Auxiliary Materials"
+    }
+  ],
+  "purchaseOrders": [
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-M-001",
+      "qtyOrdered": 1443,
+      "qtyReceived": 0,
+      "qtyRemaining": 1443,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-M-008",
+      "qtyOrdered": 1200,
+      "qtyReceived": 0,
+      "qtyRemaining": 1200,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-M-010",
+      "qtyOrdered": 1023,
+      "qtyReceived": 0,
+      "qtyRemaining": 1023,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-M-012",
+      "qtyOrdered": 324,
+      "qtyReceived": 0,
+      "qtyRemaining": 324,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-001",
+      "qtyOrdered": 1785,
+      "qtyReceived": 0,
+      "qtyRemaining": 1785,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-002",
+      "qtyOrdered": 1248,
+      "qtyReceived": 0,
+      "qtyRemaining": 1248,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-003",
+      "qtyOrdered": 1755,
+      "qtyReceived": 0,
+      "qtyRemaining": 1755,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-004",
+      "qtyOrdered": 620,
+      "qtyReceived": 0,
+      "qtyRemaining": 620,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-005",
+      "qtyOrdered": 1677,
+      "qtyReceived": 0,
+      "qtyRemaining": 1677,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-006",
+      "qtyOrdered": 165,
+      "qtyReceived": 0,
+      "qtyRemaining": 165,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-007",
+      "qtyOrdered": 716,
+      "qtyReceived": 0,
+      "qtyRemaining": 716,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-008",
+      "qtyOrdered": 1092,
+      "qtyReceived": 0,
+      "qtyRemaining": 1092,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-009",
+      "qtyOrdered": 2114,
+      "qtyReceived": 0,
+      "qtyRemaining": 2114,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-010",
+      "qtyOrdered": 1764,
+      "qtyReceived": 0,
+      "qtyRemaining": 1764,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-011",
+      "qtyOrdered": 167,
+      "qtyReceived": 0,
+      "qtyRemaining": 167,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-KEY-012",
+      "qtyOrdered": 213,
+      "qtyReceived": 0,
+      "qtyRemaining": 213,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-L-001",
+      "qtyOrdered": 207,
+      "qtyReceived": 0,
+      "qtyRemaining": 207,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-L-004",
+      "qtyOrdered": 171,
+      "qtyReceived": 0,
+      "qtyRemaining": 171,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-L-007",
+      "qtyOrdered": 61,
+      "qtyReceived": 0,
+      "qtyRemaining": 61,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "SC-L-A01",
+      "qtyOrdered": 100,
+      "qtyReceived": 0,
+      "qtyRemaining": 100,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-09",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "SC-L-A02",
+      "qtyOrdered": 0,
+      "qtyReceived": -50,
+      "qtyRemaining": 50,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-M-002",
+      "qtyOrdered": 8000,
+      "qtyReceived": 3364,
+      "qtyRemaining": 4636,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-M-003",
+      "qtyOrdered": 4000,
+      "qtyReceived": 2432,
+      "qtyRemaining": 1568,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-M-004",
+      "qtyOrdered": 4000,
+      "qtyReceived": 3044,
+      "qtyRemaining": 956,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-M-005",
+      "qtyOrdered": 4000,
+      "qtyReceived": 0,
+      "qtyRemaining": 4000,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-M-008",
+      "qtyOrdered": 4000,
+      "qtyReceived": 0,
+      "qtyRemaining": 4000,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-M-009",
+      "qtyOrdered": 15000,
+      "qtyReceived": 4855,
+      "qtyRemaining": 10145,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "OG-M-011",
+      "qtyOrdered": 1000,
+      "qtyReceived": 217,
+      "qtyRemaining": 783,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-M-006",
+      "qtyOrdered": 3500,
+      "qtyReceived": 2910,
+      "qtyRemaining": 590,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-M-007",
+      "qtyOrdered": 3200,
+      "qtyReceived": 2943,
+      "qtyRemaining": 257,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-M-008",
+      "qtyOrdered": 3200,
+      "qtyReceived": 3108,
+      "qtyRemaining": 92,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-KEY-006",
+      "qtyOrdered": 1100,
+      "qtyReceived": 929,
+      "qtyRemaining": 171,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-KEY-007",
+      "qtyOrdered": 1000,
+      "qtyReceived": 927,
+      "qtyRemaining": 73,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "A025-11",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-KEY-008",
+      "qtyOrdered": 1000,
+      "qtyReceived": 947,
+      "qtyRemaining": 53,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "A026-01",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-M-009",
+      "qtyOrdered": 3500,
+      "qtyReceived": 0,
+      "qtyRemaining": 3500,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A026-01",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-M-010",
+      "qtyOrdered": 3500,
+      "qtyReceived": 0,
+      "qtyRemaining": 3500,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A026-01",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-M-011",
+      "qtyOrdered": 3500,
+      "qtyReceived": 0,
+      "qtyRemaining": 3500,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A026-01",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-KEY-009",
+      "qtyOrdered": 2500,
+      "qtyReceived": 0,
+      "qtyRemaining": 2500,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A026-01",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-KEY-010",
+      "qtyOrdered": 2500,
+      "qtyReceived": 0,
+      "qtyRemaining": 2500,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "A026-01",
+      "supplierCode": "CPY_A01",
+      "supplierName": "Youdingzhi Textile",
+      "sku": "LE-KEY-011",
+      "qtyOrdered": 2500,
+      "qtyReceived": 0,
+      "qtyRemaining": 2500,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "B026-01",
+      "supplierCode": "CPY_A02",
+      "supplierName": "Weihong Toys",
+      "sku": "OG-M-001",
+      "qtyOrdered": 3000,
+      "qtyReceived": 2995,
+      "qtyRemaining": 5,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "B026-01",
+      "supplierCode": "CPY_A02",
+      "supplierName": "Weihong Toys",
+      "sku": "OG-M-002",
+      "qtyOrdered": 3000,
+      "qtyReceived": 2935,
+      "qtyRemaining": 65,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "B026-01",
+      "supplierCode": "CPY_A02",
+      "supplierName": "Weihong Toys",
+      "sku": "OG-M-005",
+      "qtyOrdered": 2000,
+      "qtyReceived": 1978,
+      "qtyRemaining": 22,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "B026-01",
+      "supplierCode": "CPY_A02",
+      "supplierName": "Weihong Toys",
+      "sku": "OG-M-008",
+      "qtyOrdered": 3000,
+      "qtyReceived": 2981,
+      "qtyRemaining": 19,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "B026-01",
+      "supplierCode": "CPY_A02",
+      "supplierName": "Weihong Toys",
+      "sku": "OG-M-009",
+      "qtyOrdered": 2000,
+      "qtyReceived": 1967,
+      "qtyRemaining": 33,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "B026-01",
+      "supplierCode": "CPY_A02",
+      "supplierName": "Weihong Toys",
+      "sku": "OG-KEY-005",
+      "qtyOrdered": 1000,
+      "qtyReceived": 911,
+      "qtyRemaining": 89,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "B026-01",
+      "supplierCode": "CPY_A02",
+      "supplierName": "Weihong Toys",
+      "sku": "OG-KEY-009",
+      "qtyOrdered": 1000,
+      "qtyReceived": 1000,
+      "qtyRemaining": 0,
+      "status": "Complete"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K2-XS",
+      "qtyOrdered": 35,
+      "qtyReceived": 15,
+      "qtyRemaining": 20,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K2-SM",
+      "qtyOrdered": 90,
+      "qtyReceived": 65,
+      "qtyRemaining": 25,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K2-MD",
+      "qtyOrdered": 105,
+      "qtyReceived": 65,
+      "qtyRemaining": 40,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K2-LG",
+      "qtyOrdered": 85,
+      "qtyReceived": 60,
+      "qtyRemaining": 25,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K2-XL",
+      "qtyOrdered": 45,
+      "qtyReceived": 32,
+      "qtyRemaining": 13,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K3-XS",
+      "qtyOrdered": 35,
+      "qtyReceived": 0,
+      "qtyRemaining": 35,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K3-SM",
+      "qtyOrdered": 80,
+      "qtyReceived": 48,
+      "qtyRemaining": 32,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K3-MD",
+      "qtyOrdered": 100,
+      "qtyReceived": 77,
+      "qtyRemaining": 23,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K3-LG",
+      "qtyOrdered": 75,
+      "qtyReceived": 19,
+      "qtyRemaining": 56,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K3-XL",
+      "qtyOrdered": 45,
+      "qtyReceived": 10,
+      "qtyRemaining": 35,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K4-XS",
+      "qtyOrdered": 30,
+      "qtyReceived": 0,
+      "qtyRemaining": 30,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K4-SM",
+      "qtyOrdered": 75,
+      "qtyReceived": 7,
+      "qtyRemaining": 68,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K4-MD",
+      "qtyOrdered": 95,
+      "qtyReceived": 55,
+      "qtyRemaining": 40,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K4-LG",
+      "qtyOrdered": 70,
+      "qtyReceived": 50,
+      "qtyRemaining": 20,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K4-XL",
+      "qtyOrdered": 40,
+      "qtyReceived": 35,
+      "qtyRemaining": 5,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K5-XS",
+      "qtyOrdered": 15,
+      "qtyReceived": 6,
+      "qtyRemaining": 9,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K5-SM",
+      "qtyOrdered": 35,
+      "qtyReceived": 12,
+      "qtyRemaining": 23,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K5-MD",
+      "qtyOrdered": 40,
+      "qtyReceived": 0,
+      "qtyRemaining": 40,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K5-LG",
+      "qtyOrdered": 35,
+      "qtyReceived": 3,
+      "qtyRemaining": 32,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K5-XL",
+      "qtyOrdered": 15,
+      "qtyReceived": 4,
+      "qtyRemaining": 11,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K6-XS",
+      "qtyOrdered": 23,
+      "qtyReceived": -10,
+      "qtyRemaining": 33,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K6-SM",
+      "qtyOrdered": 40,
+      "qtyReceived": -5,
+      "qtyRemaining": 45,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K6-MD",
+      "qtyOrdered": 55,
+      "qtyReceived": -24,
+      "qtyRemaining": 79,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K6-LG",
+      "qtyOrdered": 40,
+      "qtyReceived": -15,
+      "qtyRemaining": 55,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K6-XL",
+      "qtyOrdered": 20,
+      "qtyReceived": -1,
+      "qtyRemaining": 21,
+      "status": "Pending"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K7-XS",
+      "qtyOrdered": 20,
+      "qtyReceived": 11,
+      "qtyRemaining": 9,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K7-SM",
+      "qtyOrdered": 40,
+      "qtyReceived": 30,
+      "qtyRemaining": 10,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K7-MD",
+      "qtyOrdered": 55,
+      "qtyReceived": 30,
+      "qtyRemaining": 25,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K7-LG",
+      "qtyOrdered": 42,
+      "qtyReceived": 2,
+      "qtyRemaining": 40,
+      "status": "Partial"
+    },
+    {
+      "poNumber": "KH026-01",
+      "supplierCode": "CPY_B01",
+      "supplierName": "Tong Qin Qin Textile",
+      "sku": "OH-K7-XL",
+      "qtyOrdered": 20,
+      "qtyReceived": 15,
+      "qtyRemaining": 5,
+      "status": "Partial"
+    }
+  ],
+  "inventory": [
+    {
+      "sku": "OG-M-001",
+      "productName": "Orange Capybara",
+      "currentInventory": -1022,
+      "inProduction": 1448,
+      "totalAvailable": 426,
+      "velocity3d": 68.3,
+      "velocity14d": 201.6,
+      "velocity30d": 153.1
+    },
+    {
+      "sku": "OG-M-002",
+      "productName": "Strawberry Capybara",
+      "currentInventory": 364,
+      "inProduction": 4701,
+      "totalAvailable": 5065,
+      "velocity3d": 74.3,
+      "velocity14d": 215.9,
+      "velocity30d": 158.6
+    },
+    {
+      "sku": "OG-M-003",
+      "productName": "Watermelon Capybara",
+      "currentInventory": -36,
+      "inProduction": 1568,
+      "totalAvailable": 1532,
+      "velocity3d": 40.3,
+      "velocity14d": 105.9,
+      "velocity30d": 76.7
+    },
+    {
+      "sku": "OG-M-004",
+      "productName": "Sakura Capybara",
+      "currentInventory": -402,
+      "inProduction": 956,
+      "totalAvailable": 554,
+      "velocity3d": 34.3,
+      "velocity14d": 107.6,
+      "velocity30d": 71.2
+    },
+    {
+      "sku": "OG-M-005",
+      "productName": "Violet Capybara",
+      "currentInventory": -507,
+      "inProduction": 4022,
+      "totalAvailable": 3515,
+      "velocity3d": 32,
+      "velocity14d": 88.7,
+      "velocity30d": 67.3
+    },
+    {
+      "sku": "OG-M-006",
+      "productName": "Lily Capybara",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OG-M-007",
+      "productName": "Matcha Capybara",
+      "currentInventory": -52,
+      "inProduction": 0,
+      "totalAvailable": -52,
+      "velocity3d": 15.3,
+      "velocity14d": 48.1,
+      "velocity30d": 45
+    },
+    {
+      "sku": "OG-M-008",
+      "productName": "Blueberry Capybara",
+      "currentInventory": -406,
+      "inProduction": 5219,
+      "totalAvailable": 4813,
+      "velocity3d": 28.3,
+      "velocity14d": 88.2,
+      "velocity30d": 66.9
+    },
+    {
+      "sku": "OG-M-009",
+      "productName": "Cherry Capybara",
+      "currentInventory": 1003,
+      "inProduction": 10178,
+      "totalAvailable": 11181,
+      "velocity3d": 66.3,
+      "velocity14d": 187,
+      "velocity30d": 135
+    },
+    {
+      "sku": "OG-M-010",
+      "productName": "Avocado Capybara",
+      "currentInventory": -286,
+      "inProduction": 1023,
+      "totalAvailable": 737,
+      "velocity3d": 7.7,
+      "velocity14d": 41.1,
+      "velocity30d": 19.3
+    },
+    {
+      "sku": "OG-M-011",
+      "productName": "Croissant Capybara",
+      "currentInventory": -620,
+      "inProduction": 783,
+      "totalAvailable": 163,
+      "velocity3d": 38.3,
+      "velocity14d": 56.9,
+      "velocity30d": 26.5
+    },
+    {
+      "sku": "OG-M-012",
+      "productName": "Coffee Capybara",
+      "currentInventory": -51,
+      "inProduction": 324,
+      "totalAvailable": 273,
+      "velocity3d": 0.3,
+      "velocity14d": 8.1,
+      "velocity30d": 9.6
+    },
+    {
+      "sku": "LE-M-001",
+      "productName": "Angel Capybara",
+      "currentInventory": 15,
+      "inProduction": 0,
+      "totalAvailable": 15,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "LE-M-002",
+      "productName": "Demon Capybara",
+      "currentInventory": 27,
+      "inProduction": 0,
+      "totalAvailable": 27,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "LE-M-003",
+      "productName": "Pumpkin Capybara",
+      "currentInventory": 20,
+      "inProduction": 0,
+      "totalAvailable": 20,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "LE-M-004",
+      "productName": "Reindeer Capybara",
+      "currentInventory": 451,
+      "inProduction": 0,
+      "totalAvailable": 451,
+      "velocity3d": 10.3,
+      "velocity14d": 23.9,
+      "velocity30d": 18
+    },
+    {
+      "sku": "LE-M-005",
+      "productName": "Snowy Capybara",
+      "currentInventory": 20,
+      "inProduction": 0,
+      "totalAvailable": 20,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0.2
+    },
+    {
+      "sku": "LE-M-006",
+      "productName": "Secret Crush",
+      "currentInventory": -487,
+      "inProduction": 590,
+      "totalAvailable": 103,
+      "velocity3d": 31.7,
+      "velocity14d": 93.4,
+      "velocity30d": 66
+    },
+    {
+      "sku": "LE-M-007",
+      "productName": "Rose",
+      "currentInventory": -56,
+      "inProduction": 257,
+      "totalAvailable": 201,
+      "velocity3d": 30.3,
+      "velocity14d": 50.4,
+      "velocity30d": 59.5
+    },
+    {
+      "sku": "LE-M-008",
+      "productName": "White Choco",
+      "currentInventory": 95,
+      "inProduction": 92,
+      "totalAvailable": 187,
+      "velocity3d": 28,
+      "velocity14d": 84.9,
+      "velocity30d": 57
+    },
+    {
+      "sku": "LE-M-009",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 3500,
+      "totalAvailable": 3500,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "LE-M-010",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 3500,
+      "totalAvailable": 3500,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "LE-M-011",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 3500,
+      "totalAvailable": 3500,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "SC-M-A01",
+      "productName": "Alien Capybara",
+      "currentInventory": 24,
+      "inProduction": 0,
+      "totalAvailable": 24,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "SC-M-A02",
+      "productName": "Pink Alien Capybara",
+      "currentInventory": 13,
+      "inProduction": 0,
+      "totalAvailable": 13,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OG-KEY-001",
+      "productName": "Orange Capybara",
+      "currentInventory": 463,
+      "inProduction": 1785,
+      "totalAvailable": 2248,
+      "velocity3d": 4,
+      "velocity14d": 11.4,
+      "velocity30d": 7.3
+    },
+    {
+      "sku": "OG-KEY-002",
+      "productName": "Strawberry Capybara",
+      "currentInventory": -16,
+      "inProduction": 1248,
+      "totalAvailable": 1232,
+      "velocity3d": 1.7,
+      "velocity14d": 18.4,
+      "velocity30d": 11.5
+    },
+    {
+      "sku": "OG-KEY-003",
+      "productName": "Watermelon Capybara",
+      "currentInventory": 107,
+      "inProduction": 1755,
+      "totalAvailable": 1862,
+      "velocity3d": 6.3,
+      "velocity14d": 18.1,
+      "velocity30d": 11.9
+    },
+    {
+      "sku": "OG-KEY-004",
+      "productName": "Sakura Capybara",
+      "currentInventory": 233,
+      "inProduction": 620,
+      "totalAvailable": 853,
+      "velocity3d": 6.7,
+      "velocity14d": 15.4,
+      "velocity30d": 9.6
+    },
+    {
+      "sku": "OG-KEY-005",
+      "productName": "Violet Capybara",
+      "currentInventory": 877,
+      "inProduction": 1766,
+      "totalAvailable": 2643,
+      "velocity3d": 7.7,
+      "velocity14d": 15.3,
+      "velocity30d": 10.3
+    },
+    {
+      "sku": "OG-KEY-006",
+      "productName": "Lily Capybara",
+      "currentInventory": 72,
+      "inProduction": 165,
+      "totalAvailable": 237,
+      "velocity3d": 5.7,
+      "velocity14d": 7.8,
+      "velocity30d": 5.7
+    },
+    {
+      "sku": "OG-KEY-007",
+      "productName": "Matcha Capybara",
+      "currentInventory": 707,
+      "inProduction": 716,
+      "totalAvailable": 1423,
+      "velocity3d": 8.3,
+      "velocity14d": 22.7,
+      "velocity30d": 15.1
+    },
+    {
+      "sku": "OG-KEY-008",
+      "productName": "Blueberry Capybara",
+      "currentInventory": 491,
+      "inProduction": 1092,
+      "totalAvailable": 1583,
+      "velocity3d": 3.3,
+      "velocity14d": 12.3,
+      "velocity30d": 8.4
+    },
+    {
+      "sku": "OG-KEY-009",
+      "productName": "Cherry Capybara",
+      "currentInventory": 910,
+      "inProduction": 2114,
+      "totalAvailable": 3024,
+      "velocity3d": 2,
+      "velocity14d": 4.6,
+      "velocity30d": 6.3
+    },
+    {
+      "sku": "OG-KEY-010",
+      "productName": "Avocado Capybara",
+      "currentInventory": 7,
+      "inProduction": 1764,
+      "totalAvailable": 1771,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OG-KEY-011",
+      "productName": "Croissant Capybara",
+      "currentInventory": 498,
+      "inProduction": 167,
+      "totalAvailable": 665,
+      "velocity3d": 4,
+      "velocity14d": 15.3,
+      "velocity30d": 9.2
+    },
+    {
+      "sku": "OG-KEY-012",
+      "productName": "Coffee Capybara",
+      "currentInventory": 392,
+      "inProduction": 213,
+      "totalAvailable": 605,
+      "velocity3d": 2.7,
+      "velocity14d": 11.4,
+      "velocity30d": 7.9
+    },
+    {
+      "sku": "LE-KEY-001",
+      "productName": "Angel Capybara",
+      "currentInventory": 53,
+      "inProduction": 0,
+      "totalAvailable": 53,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "LE-KEY-002",
+      "productName": "Demon Capybara",
+      "currentInventory": 31,
+      "inProduction": 0,
+      "totalAvailable": 31,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "LE-KEY-003",
+      "productName": "Pumpkin Capybara",
+      "currentInventory": 183,
+      "inProduction": 0,
+      "totalAvailable": 183,
+      "velocity3d": 5.3,
+      "velocity14d": 7.6,
+      "velocity30d": 5.5
+    },
+    {
+      "sku": "LE-KEY-004",
+      "productName": "Reindeer Capybara",
+      "currentInventory": 149,
+      "inProduction": 0,
+      "totalAvailable": 149,
+      "velocity3d": 0.3,
+      "velocity14d": 2.9,
+      "velocity30d": 2.3
+    },
+    {
+      "sku": "LE-KEY-005",
+      "productName": "Snowy Capybara",
+      "currentInventory": 17,
+      "inProduction": 0,
+      "totalAvailable": 17,
+      "velocity3d": 3,
+      "velocity14d": 11.1,
+      "velocity30d": 8.1
+    },
+    {
+      "sku": "LE-KEY-006",
+      "productName": "Secret Crush",
+      "currentInventory": -25,
+      "inProduction": 171,
+      "totalAvailable": 146,
+      "velocity3d": 4.3,
+      "velocity14d": 14.4,
+      "velocity30d": 10.7
+    },
+    {
+      "sku": "LE-KEY-007",
+      "productName": "Rose",
+      "currentInventory": 26,
+      "inProduction": 73,
+      "totalAvailable": 99,
+      "velocity3d": 0,
+      "velocity14d": 0.9,
+      "velocity30d": 6.4
+    },
+    {
+      "sku": "LE-KEY-008",
+      "productName": "White Choco",
+      "currentInventory": -17,
+      "inProduction": 53,
+      "totalAvailable": 36,
+      "velocity3d": 7,
+      "velocity14d": 16.6,
+      "velocity30d": 11.8
+    },
+    {
+      "sku": "LE-KEY-009",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 2500,
+      "totalAvailable": 2500,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "LE-KEY-010",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 2500,
+      "totalAvailable": 2500,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "LE-KEY-011",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 2500,
+      "totalAvailable": 2500,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "SC-KEY-A01",
+      "productName": "Alien Capybara",
+      "currentInventory": 44,
+      "inProduction": 0,
+      "totalAvailable": 44,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "SC-KEY-A02",
+      "productName": "Pink Alien Capybara",
+      "currentInventory": 11,
+      "inProduction": 0,
+      "totalAvailable": 11,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OG-L-001",
+      "productName": "Orange Capybara",
+      "currentInventory": 4,
+      "inProduction": 207,
+      "totalAvailable": 211,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 1.3
+    },
+    {
+      "sku": "OG-L-002",
+      "productName": "Strawberry Capybara",
+      "currentInventory": -7,
+      "inProduction": 0,
+      "totalAvailable": -7,
+      "velocity3d": 0.3,
+      "velocity14d": 2.1,
+      "velocity30d": 2.3
+    },
+    {
+      "sku": "OG-L-003",
+      "productName": "Watermelon Capybara",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0.3,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OG-L-004",
+      "productName": "Sakura Capybara",
+      "currentInventory": 157,
+      "inProduction": 171,
+      "totalAvailable": 328,
+      "velocity3d": 2,
+      "velocity14d": 3.2,
+      "velocity30d": 2.2
+    },
+    {
+      "sku": "OG-L-005",
+      "productName": "Violet Capybara",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OG-L-006",
+      "productName": "Lily Capybara",
+      "currentInventory": 2,
+      "inProduction": 0,
+      "totalAvailable": 2,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OG-L-007",
+      "productName": "Matcha Capybara",
+      "currentInventory": -19,
+      "inProduction": 61,
+      "totalAvailable": 42,
+      "velocity3d": 1,
+      "velocity14d": 3.9,
+      "velocity30d": 2.8
+    },
+    {
+      "sku": "OG-L-008",
+      "productName": "Blueberry Capybara",
+      "currentInventory": -16,
+      "inProduction": 0,
+      "totalAvailable": -16,
+      "velocity3d": 0,
+      "velocity14d": 2.9,
+      "velocity30d": 2.3
+    },
+    {
+      "sku": "OG-L-009",
+      "productName": "Cherry Capybara",
+      "currentInventory": -11,
+      "inProduction": 0,
+      "totalAvailable": -11,
+      "velocity3d": 0,
+      "velocity14d": 4.1,
+      "velocity30d": 3.1
+    },
+    {
+      "sku": "SC-L-A01",
+      "productName": "Alien Capybara",
+      "currentInventory": 5,
+      "inProduction": 100,
+      "totalAvailable": 105,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "SC-L-A02",
+      "productName": "Pink Alien Capybara",
+      "currentInventory": 14,
+      "inProduction": 50,
+      "totalAvailable": 64,
+      "velocity3d": 1.3,
+      "velocity14d": 2.3,
+      "velocity30d": 1.6
+    },
+    {
+      "sku": "OH101-BK-SM",
+      "productName": "Anime - Black",
+      "currentInventory": 37,
+      "inProduction": 0,
+      "totalAvailable": 37,
+      "velocity3d": 0,
+      "velocity14d": 0.3,
+      "velocity30d": 0.2
+    },
+    {
+      "sku": "OH101-BK-MD",
+      "productName": "Anime - Black",
+      "currentInventory": 20,
+      "inProduction": 0,
+      "totalAvailable": 20,
+      "velocity3d": 0.3,
+      "velocity14d": 0.8,
+      "velocity30d": 0.7
+    },
+    {
+      "sku": "OH101-BK-LG",
+      "productName": "Anime - Black",
+      "currentInventory": 40,
+      "inProduction": 0,
+      "totalAvailable": 40,
+      "velocity3d": 0,
+      "velocity14d": 0.2,
+      "velocity30d": 0.2
+    },
+    {
+      "sku": "OH101-BK-XL",
+      "productName": "Anime - Black",
+      "currentInventory": 26,
+      "inProduction": 0,
+      "totalAvailable": 26,
+      "velocity3d": 0.3,
+      "velocity14d": 0.4,
+      "velocity30d": 0.2
+    },
+    {
+      "sku": "OH101-BK-2X",
+      "productName": "Anime - Black",
+      "currentInventory": 14,
+      "inProduction": 0,
+      "totalAvailable": 14,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.2
+    },
+    {
+      "sku": "OH101-WH-SM",
+      "productName": "Anime - Off White",
+      "currentInventory": 29,
+      "inProduction": 0,
+      "totalAvailable": 29,
+      "velocity3d": 0,
+      "velocity14d": 0.3,
+      "velocity30d": 0.3
+    },
+    {
+      "sku": "OH101-WH-MD",
+      "productName": "Anime - Off White",
+      "currentInventory": 20,
+      "inProduction": 0,
+      "totalAvailable": 20,
+      "velocity3d": 0,
+      "velocity14d": 0.3,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH101-WH-LG",
+      "productName": "Anime - Off White",
+      "currentInventory": 101,
+      "inProduction": 0,
+      "totalAvailable": 101,
+      "velocity3d": 0.3,
+      "velocity14d": 0.2,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH101-WH-XL",
+      "productName": "Anime - Off White",
+      "currentInventory": 59,
+      "inProduction": 0,
+      "totalAvailable": 59,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH101-WH-2X",
+      "productName": "Anime - Off White",
+      "currentInventory": 54,
+      "inProduction": 0,
+      "totalAvailable": 54,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH102-LC-SM",
+      "productName": "Chonky - Lilac",
+      "currentInventory": 61,
+      "inProduction": 0,
+      "totalAvailable": 61,
+      "velocity3d": 0,
+      "velocity14d": 0.8,
+      "velocity30d": 0.4
+    },
+    {
+      "sku": "OH102-LC-MD",
+      "productName": "Chonky - Lilac",
+      "currentInventory": 82,
+      "inProduction": 0,
+      "totalAvailable": 82,
+      "velocity3d": 0,
+      "velocity14d": 0.4,
+      "velocity30d": 0.2
+    },
+    {
+      "sku": "OH102-LC-LG",
+      "productName": "Chonky - Lilac",
+      "currentInventory": 47,
+      "inProduction": 0,
+      "totalAvailable": 47,
+      "velocity3d": 0.3,
+      "velocity14d": 0.1,
+      "velocity30d": 0.2
+    },
+    {
+      "sku": "OH102-LC-XL",
+      "productName": "Chonky - Lilac",
+      "currentInventory": 27,
+      "inProduction": 0,
+      "totalAvailable": 27,
+      "velocity3d": 0.3,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH102-LC-2X",
+      "productName": "Chonky - Lilac",
+      "currentInventory": 25,
+      "inProduction": 0,
+      "totalAvailable": 25,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH102-OW-SM",
+      "productName": "Chonky - Off White",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH102-OW-MD",
+      "productName": "Chonky - Off White",
+      "currentInventory": 14,
+      "inProduction": 0,
+      "totalAvailable": 14,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH102-OW-LG",
+      "productName": "Chonky - Off White",
+      "currentInventory": 20,
+      "inProduction": 0,
+      "totalAvailable": 20,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH102-OW-XL",
+      "productName": "Chonky - Off White",
+      "currentInventory": 15,
+      "inProduction": 0,
+      "totalAvailable": 15,
+      "velocity3d": 0.3,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH102-OW-2X",
+      "productName": "Chonky - Off White",
+      "currentInventory": 19,
+      "inProduction": 0,
+      "totalAvailable": 19,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH103-BK-SM",
+      "productName": "Chill Club - Black",
+      "currentInventory": 29,
+      "inProduction": 0,
+      "totalAvailable": 29,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH103-BK-MD",
+      "productName": "Chill Club - Black",
+      "currentInventory": 26,
+      "inProduction": 0,
+      "totalAvailable": 26,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH103-BK-LG",
+      "productName": "Chill Club - Black",
+      "currentInventory": 14,
+      "inProduction": 0,
+      "totalAvailable": 14,
+      "velocity3d": 0.7,
+      "velocity14d": 0.2,
+      "velocity30d": 0.2
+    },
+    {
+      "sku": "OH103-BK-XL",
+      "productName": "Chill Club - Black",
+      "currentInventory": 22,
+      "inProduction": 0,
+      "totalAvailable": 22,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH103-BK-2X",
+      "productName": "Chill Club - Black",
+      "currentInventory": 19,
+      "inProduction": 0,
+      "totalAvailable": 19,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH103-LC-SM",
+      "productName": "Chill Club - Lilac",
+      "currentInventory": 18,
+      "inProduction": 0,
+      "totalAvailable": 18,
+      "velocity3d": 0,
+      "velocity14d": 0.3,
+      "velocity30d": 0.3
+    },
+    {
+      "sku": "OH103-LC-MD",
+      "productName": "Chill Club - Lilac",
+      "currentInventory": 23,
+      "inProduction": 0,
+      "totalAvailable": 23,
+      "velocity3d": 0.3,
+      "velocity14d": 0.4,
+      "velocity30d": 0.2
+    },
+    {
+      "sku": "OH103-LC-LG",
+      "productName": "Chill Club - Lilac",
+      "currentInventory": 15,
+      "inProduction": 0,
+      "totalAvailable": 15,
+      "velocity3d": 0.3,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH103-LC-XL",
+      "productName": "Chill Club - Lilac",
+      "currentInventory": 22,
+      "inProduction": 0,
+      "totalAvailable": 22,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH103-LC-2X",
+      "productName": "Chill Club - Lilac",
+      "currentInventory": 19,
+      "inProduction": 0,
+      "totalAvailable": 19,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH103-SG-SM",
+      "productName": "Chill Club - Green",
+      "currentInventory": 30,
+      "inProduction": 0,
+      "totalAvailable": 30,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH103-SG-MD",
+      "productName": "Chill Club - Green",
+      "currentInventory": 25,
+      "inProduction": 0,
+      "totalAvailable": 25,
+      "velocity3d": 0.3,
+      "velocity14d": 0.2,
+      "velocity30d": 0.3
+    },
+    {
+      "sku": "OH103-SG-LG",
+      "productName": "Chill Club - Green",
+      "currentInventory": 24,
+      "inProduction": 0,
+      "totalAvailable": 24,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH103-SG-XL",
+      "productName": "Chill Club - Green",
+      "currentInventory": 23,
+      "inProduction": 0,
+      "totalAvailable": 23,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH103-SG-2X",
+      "productName": "Chill Club - Green",
+      "currentInventory": 28,
+      "inProduction": 0,
+      "totalAvailable": 28,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH104-OW-SM",
+      "productName": "Spirit Animal - Off White",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0.4,
+      "velocity30d": 0.2
+    },
+    {
+      "sku": "OH104-OW-MD",
+      "productName": "Spirit Animal - Off White",
+      "currentInventory": 5,
+      "inProduction": 0,
+      "totalAvailable": 5,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH104-OW-LG",
+      "productName": "Spirit Animal - Off White",
+      "currentInventory": 3,
+      "inProduction": 0,
+      "totalAvailable": 3,
+      "velocity3d": 0.3,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH104-OW-XL",
+      "productName": "Spirit Animal - Off White",
+      "currentInventory": 3,
+      "inProduction": 0,
+      "totalAvailable": 3,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "OH104-OW-2X",
+      "productName": "Spirit Animal - Off White",
+      "currentInventory": 5,
+      "inProduction": 0,
+      "totalAvailable": 5,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K2-XS",
+      "productName": "",
+      "currentInventory": 43,
+      "inProduction": 20,
+      "totalAvailable": 63,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K2-SM",
+      "productName": "",
+      "currentInventory": 85,
+      "inProduction": 25,
+      "totalAvailable": 110,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K2-MD",
+      "productName": "",
+      "currentInventory": 39,
+      "inProduction": 40,
+      "totalAvailable": 79,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K2-LG",
+      "productName": "",
+      "currentInventory": 78,
+      "inProduction": 25,
+      "totalAvailable": 103,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K2-XL",
+      "productName": "",
+      "currentInventory": 32,
+      "inProduction": 13,
+      "totalAvailable": 45,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K3-XS",
+      "productName": "",
+      "currentInventory": 27,
+      "inProduction": 35,
+      "totalAvailable": 62,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K3-SM",
+      "productName": "",
+      "currentInventory": 48,
+      "inProduction": 32,
+      "totalAvailable": 80,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K3-MD",
+      "productName": "",
+      "currentInventory": 77,
+      "inProduction": 23,
+      "totalAvailable": 100,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K3-LG",
+      "productName": "",
+      "currentInventory": 19,
+      "inProduction": 56,
+      "totalAvailable": 75,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K3-XL",
+      "productName": "",
+      "currentInventory": 27,
+      "inProduction": 35,
+      "totalAvailable": 62,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K4-XS",
+      "productName": "",
+      "currentInventory": 34,
+      "inProduction": 30,
+      "totalAvailable": 64,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K4-SM",
+      "productName": "",
+      "currentInventory": 7,
+      "inProduction": 68,
+      "totalAvailable": 75,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K4-MD",
+      "productName": "",
+      "currentInventory": 90,
+      "inProduction": 40,
+      "totalAvailable": 130,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K4-LG",
+      "productName": "",
+      "currentInventory": 60,
+      "inProduction": 20,
+      "totalAvailable": 80,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K4-XL",
+      "productName": "",
+      "currentInventory": 57,
+      "inProduction": 5,
+      "totalAvailable": 62,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K5-XS",
+      "productName": "",
+      "currentInventory": 6,
+      "inProduction": 9,
+      "totalAvailable": 15,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K5-SM",
+      "productName": "",
+      "currentInventory": 12,
+      "inProduction": 23,
+      "totalAvailable": 35,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K5-MD",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 40,
+      "totalAvailable": 40,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K5-LG",
+      "productName": "",
+      "currentInventory": 3,
+      "inProduction": 32,
+      "totalAvailable": 35,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K5-XL",
+      "productName": "",
+      "currentInventory": 4,
+      "inProduction": 11,
+      "totalAvailable": 15,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K6-XS",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 33,
+      "totalAvailable": 33,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K6-SM",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 45,
+      "totalAvailable": 45,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K6-MD",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 79,
+      "totalAvailable": 79,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K6-LG",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 55,
+      "totalAvailable": 55,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K6-XL",
+      "productName": "",
+      "currentInventory": 0,
+      "inProduction": 21,
+      "totalAvailable": 21,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K7-XS",
+      "productName": "",
+      "currentInventory": 11,
+      "inProduction": 9,
+      "totalAvailable": 20,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K7-SM",
+      "productName": "",
+      "currentInventory": 41,
+      "inProduction": 10,
+      "totalAvailable": 51,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K7-MD",
+      "productName": "",
+      "currentInventory": 44,
+      "inProduction": 25,
+      "totalAvailable": 69,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K7-LG",
+      "productName": "",
+      "currentInventory": 29,
+      "inProduction": 40,
+      "totalAvailable": 69,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OH-K7-XL",
+      "productName": "",
+      "currentInventory": 18,
+      "inProduction": 5,
+      "totalAvailable": 23,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-PK-XS",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-PK-SM",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-PK-MD",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-PK-LG",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-PK-XL",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-PK-2X",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-WH-XS",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": 6,
+      "inProduction": 0,
+      "totalAvailable": 6,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-WH-SM",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": -1,
+      "inProduction": 0,
+      "totalAvailable": -1,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-WH-MD",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-WH-LG",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-WH-XL",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT201-WH-2X",
+      "productName": "Capybara Club Oversized T-Shirt",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OT202-CR-XS",
+      "productName": "Unbothered Oversized T-Shirt\t\t\t",
+      "currentInventory": 0,
+      "inProduction": 0,
+      "totalAvailable": 0,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OG-TOTE-001",
+      "productName": "Baige Totebag",
+      "currentInventory": 106,
+      "inProduction": 0,
+      "totalAvailable": 106,
+      "velocity3d": 1.7,
+      "velocity14d": 4.9,
+      "velocity30d": 3.3
+    },
+    {
+      "sku": "OG-TOTE-002",
+      "productName": "Pink Totebag",
+      "currentInventory": 547,
+      "inProduction": 0,
+      "totalAvailable": 547,
+      "velocity3d": 3.3,
+      "velocity14d": 8.2,
+      "velocity30d": 3.8
+    },
+    {
+      "sku": "BAG-B-001",
+      "productName": "Gift Wrap",
+      "currentInventory": 3000,
+      "inProduction": 0,
+      "totalAvailable": 3000,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "SC-TOTE-001",
+      "productName": "Alien Totebag - Baige",
+      "currentInventory": 38,
+      "inProduction": 0,
+      "totalAvailable": 38,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "SC-TOTE-002",
+      "productName": "Alien Totebag - Black",
+      "currentInventory": 22,
+      "inProduction": 0,
+      "totalAvailable": 22,
+      "velocity3d": 0,
+      "velocity14d": 0,
+      "velocity30d": 0
+    },
+    {
+      "sku": "OG-STK-V03",
+      "productName": "Valentine's Collection Stickers",
+      "currentInventory": 301,
+      "inProduction": 0,
+      "totalAvailable": 301,
+      "velocity3d": 13,
+      "velocity14d": 49.9,
+      "velocity30d": 38.1
+    },
+    {
+      "sku": "SC-STK-P02",
+      "productName": "Alien Sticker Pack Ver.2",
+      "currentInventory": 323,
+      "inProduction": 0,
+      "totalAvailable": 323,
+      "velocity3d": 0.3,
+      "velocity14d": 0.9,
+      "velocity30d": 0.6
+    },
+    {
+      "sku": "Card-001",
+      "productName": "Greeting Card #1",
+      "currentInventory": 186,
+      "inProduction": 0,
+      "totalAvailable": 186,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0.1
+    },
+    {
+      "sku": "Card-002",
+      "productName": "Greeting Card #2",
+      "currentInventory": 801,
+      "inProduction": 0,
+      "totalAvailable": 801,
+      "velocity3d": 0.7,
+      "velocity14d": 4.2,
+      "velocity30d": 2.5
+    },
+    {
+      "sku": "Card-004",
+      "productName": "Greeting Card #4",
+      "currentInventory": 448,
+      "inProduction": 0,
+      "totalAvailable": 448,
+      "velocity3d": 0,
+      "velocity14d": 0.1,
+      "velocity30d": 0
+    }
+  ]
+}

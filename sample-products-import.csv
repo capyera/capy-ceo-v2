@@ -1,0 +1,50 @@
+sku,name,category,subcategory,cogs,weight,length,width,height,retail_price,notes
+OG-M-001,Orange Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Tier A bestseller
+OG-M-002,Strawberry Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Tier A bestseller
+OG-M-003,Watermelon Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Tier B
+OG-M-004,Sakura Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Tier B
+OG-M-005,Violet Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Tier B
+OG-M-006,Lily Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Limited
+OG-M-007,Matcha Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Tier B
+OG-M-008,Blueberry Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Tier B
+OG-M-009,Cherry Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Tier A bestseller - top seller
+OG-M-010,Avocado Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Tier C
+OG-M-011,Croissant Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Tier C
+OG-M-012,Coffee Capybara 10",plushies,10" Plushie,8.25,180,25,20,15,16.99,Tier C
+OG-L-001,Orange Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size
+OG-L-002,Strawberry Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size
+OG-L-003,Watermelon Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size
+OG-L-004,Sakura Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size
+OG-L-005,Violet Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size
+OG-L-006,Lily Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size - limited
+OG-L-007,Matcha Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size
+OG-L-008,Blueberry Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size
+OG-L-009,Cherry Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size
+OG-L-010,Avocado Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size
+OG-L-011,Croissant Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size
+OG-L-012,Coffee Capybara Jumbo,plushies,Jumbo,15.50,450,40,35,25,32.99,20" jumbo size
+OG-KEY-001,Orange Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+OG-KEY-002,Strawberry Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+OG-KEY-003,Watermelon Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+OG-KEY-004,Sakura Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+OG-KEY-005,Violet Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+OG-KEY-006,Lily Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+OG-KEY-007,Matcha Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+OG-KEY-008,Blueberry Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+OG-KEY-009,Cherry Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+OG-KEY-010,Avocado Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+OG-KEY-011,Croissant Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+OG-KEY-012,Coffee Bag Charm,plushies,Bag Charm,4.50,35,8,6,4,9.99,Keychain/bag charm
+LE-M-006,Secret Crush Valentine,plushies,10" Plushie,9.50,180,25,20,15,19.99,Valentine 2026 Limited Edition
+LE-M-007,Rose Valentine,plushies,10" Plushie,9.50,180,25,20,15,19.99,Valentine 2026 Limited Edition
+LE-M-008,White Choco Valentine,plushies,10" Plushie,9.50,180,25,20,15,19.99,Valentine 2026 Limited Edition
+DUO-001,Duo Bundle Cherry + Strawberry,bundles,Duo Bundle,16.50,360,30,25,18,29.99,2-pack bundle
+DUO-002,Duo Bundle Orange + Blueberry,bundles,Duo Bundle,16.50,360,30,25,18,29.99,2-pack bundle
+FAM-001,Family Bundle Cherry 3-Pack,bundles,Family Bundle,24.75,540,35,30,20,44.99,3-pack family bundle
+FAM-002,Family Bundle Strawberry 3-Pack,bundles,Family Bundle,24.75,540,35,30,20,44.99,3-pack family bundle
+HOOD-K-001,Kids Orange Hoodie,clothing,Kids Hoodie,12.00,300,0,0,0,34.99,Kids size hoodie
+HOOD-A-001,Adult Orange Hoodie,clothing,Adult Hoodie,15.00,450,0,0,0,49.99,Adult size hoodie
+TEE-OS-001,Oversized Orange T-shirt,clothing,Oversized T-shirt,8.00,200,0,0,0,29.99,Oversized fit
+HAT-001,Capybara Baseball Hat,clothing,Hat,6.00,100,0,0,0,24.99,Adjustable cap
+TOTE-001,Capybara Canvas Totebag,accessories,Totebag,5.00,150,0,0,0,19.99,Canvas tote
+CARD-001,Capybara Greeting Card Set,accessories,Greeting Card,2.00,50,0,0,0,9.99,Set of 5 cards

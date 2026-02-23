@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Import POs - Capy Inventory</title>
+  <style>
+    body { font-family: system-ui; max-width: 600px; margin: 50px auto; padding: 20px; background: #f5f5f5; }
+    .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .btn { background: #16a34a; color: white; padding: 15px 30px; border: none; border-radius: 8px; font-size: 18px; cursor: pointer; width: 100%; }
+    .btn:hover { background: #15803d; }
+    .status { margin-top: 20px; padding: 15px; border-radius: 8px; text-align: center; }
+    .success { background: #dcfce7; color: #166534; }
+    h1 { margin-top: 0; }
+    .summary { background: #f8fafc; padding: 15px; border-radius: 8px; margin: 20px 0; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🦫 Import Purchase Orders</h1>
+    <p>This will import your pending POs into Capy Inventory.</p>
+    
+    <div class="summary">
+      <strong>7 POs • 67 Line Items • 64,506 Units</strong><br><br>
+      A025-09 (Mars) - Feb 28<br>
+      A025-11 (Mars) - Feb 28<br>
+      A026-01 (Mars) - Mar 15<br>
+      A026-02 (Mars) - Mar 15<br>
+      B026-01 (Star) - Mar 20<br>
+      B026-02 (Star) - Mar 20<br>
+      KH026-01 (KH) - Mar 30
+    </div>
+    
+    <button class="btn" onclick="importPOs()">Import POs Now</button>
+    
+    <div id="status"></div>
+  </div>
+
+<script>
+function importPOs() {
+  document.getElementById('status').innerHTML = '<div class="status">Importing...</div>';
+  
+  const poLines = [
+    {"id":"po_1_1","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-M-001","productName":"Orange Capybara 10\"","qtyOrdered":517,"qtyReceived":0,"qtyRemaining":517,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_2","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-M-010","productName":"Avocado Capybara 10\"","qtyOrdered":387,"qtyReceived":0,"qtyRemaining":387,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_3","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-M-012","productName":"Coffee Capybara 10\"","qtyOrdered":76,"qtyReceived":0,"qtyRemaining":76,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_4","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-001","productName":"Orange Charm","qtyOrdered":1995,"qtyReceived":0,"qtyRemaining":1995,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_5","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-002","productName":"Strawberry Charm","qtyOrdered":1256,"qtyReceived":0,"qtyRemaining":1256,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_6","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-003","productName":"Watermelon Charm","qtyOrdered":1845,"qtyReceived":0,"qtyRemaining":1845,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_7","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-004","productName":"Sakura Charm","qtyOrdered":495,"qtyReceived":0,"qtyRemaining":495,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_8","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-005","productName":"Violet Charm","qtyOrdered":1174,"qtyReceived":0,"qtyRemaining":1174,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_9","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-006","productName":"Lily Charm","qtyOrdered":171,"qtyReceived":0,"qtyRemaining":171,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_10","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-007","productName":"Matcha Charm","qtyOrdered":1009,"qtyReceived":0,"qtyRemaining":1009,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_11","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-008","productName":"Blueberry Charm","qtyOrdered":1360,"qtyReceived":0,"qtyRemaining":1360,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_12","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-009","productName":"Cherry Charm","qtyOrdered":2251,"qtyReceived":0,"qtyRemaining":2251,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_13","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-010","productName":"Avocado Charm","qtyOrdered":1763,"qtyReceived":0,"qtyRemaining":1763,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_14","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-011","productName":"Croissant Charm","qtyOrdered":198,"qtyReceived":0,"qtyRemaining":198,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_15","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-KEY-012","productName":"Coffee Charm","qtyOrdered":161,"qtyReceived":0,"qtyRemaining":161,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_16","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-L-001","productName":"Orange Jumbo","qtyOrdered":207,"qtyReceived":0,"qtyRemaining":207,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_17","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-L-004","productName":"Sakura Jumbo","qtyOrdered":171,"qtyReceived":0,"qtyRemaining":171,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_18","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-L-007","productName":"Matcha Jumbo","qtyOrdered":61,"qtyReceived":0,"qtyRemaining":61,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_19","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"SC-L-A01","productName":"SC Jumbo A01","qtyOrdered":100,"qtyReceived":0,"qtyRemaining":100,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_1_20","poNumber":"A025-09","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"SC-L-A02","productName":"SC Jumbo A02","qtyOrdered":50,"qtyReceived":0,"qtyRemaining":50,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_2_1","poNumber":"A025-11","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-M-002","productName":"Strawberry Capybara 10\"","qtyOrdered":5007,"qtyReceived":0,"qtyRemaining":5007,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_2_2","poNumber":"A025-11","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-M-003","productName":"Watermelon Capybara 10\"","qtyOrdered":1710,"qtyReceived":0,"qtyRemaining":1710,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_2_3","poNumber":"A025-11","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-M-005","productName":"Violet Capybara 10\"","qtyOrdered":2118,"qtyReceived":0,"qtyRemaining":2118,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_2_4","poNumber":"A025-11","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-M-008","productName":"Blueberry Capybara 10\"","qtyOrdered":4416,"qtyReceived":0,"qtyRemaining":4416,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_2_5","poNumber":"A025-11","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-M-009","productName":"Cherry Capybara 10\"","qtyOrdered":9800,"qtyReceived":0,"qtyRemaining":9800,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_2_6","poNumber":"A025-11","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-M-006","productName":"Secret Crush","qtyOrdered":237,"qtyReceived":0,"qtyRemaining":237,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_2_7","poNumber":"A025-11","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-M-007","productName":"Rose Valentine","qtyOrdered":159,"qtyReceived":0,"qtyRemaining":159,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_2_8","poNumber":"A025-11","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-M-008","productName":"White Choco","qtyOrdered":48,"qtyReceived":0,"qtyRemaining":48,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_2_9","poNumber":"A025-11","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-KEY-006","productName":"LE Charm 006","qtyOrdered":119,"qtyReceived":0,"qtyRemaining":119,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_2_10","poNumber":"A025-11","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-KEY-007","productName":"LE Charm 007","qtyOrdered":60,"qtyReceived":0,"qtyRemaining":60,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_2_11","poNumber":"A025-11","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-KEY-008","productName":"LE Charm 008","qtyOrdered":14,"qtyReceived":0,"qtyRemaining":14,"status":"Pending","expectedDate":"2026-02-28","createdAt":1771036750155},
+    {"id":"po_3_1","poNumber":"A026-01","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-M-009","productName":"LE Plushie 009","qtyOrdered":3500,"qtyReceived":0,"qtyRemaining":3500,"status":"Pending","expectedDate":"2026-03-15","createdAt":1771036750155},
+    {"id":"po_3_2","poNumber":"A026-01","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-M-010","productName":"LE Plushie 010","qtyOrdered":3500,"qtyReceived":0,"qtyRemaining":3500,"status":"Pending","expectedDate":"2026-03-15","createdAt":1771036750155},
+    {"id":"po_3_3","poNumber":"A026-01","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-M-011","productName":"LE Plushie 011","qtyOrdered":3500,"qtyReceived":0,"qtyRemaining":3500,"status":"Pending","expectedDate":"2026-03-15","createdAt":1771036750155},
+    {"id":"po_3_4","poNumber":"A026-01","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-KEY-009","productName":"LE Charm 009","qtyOrdered":2500,"qtyReceived":0,"qtyRemaining":2500,"status":"Pending","expectedDate":"2026-03-15","createdAt":1771036750155},
+    {"id":"po_3_5","poNumber":"A026-01","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-KEY-010","productName":"LE Charm 010","qtyOrdered":2500,"qtyReceived":0,"qtyRemaining":2500,"status":"Pending","expectedDate":"2026-03-15","createdAt":1771036750155},
+    {"id":"po_3_6","poNumber":"A026-01","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"LE-KEY-011","productName":"LE Charm 011","qtyOrdered":2500,"qtyReceived":0,"qtyRemaining":2500,"status":"Pending","expectedDate":"2026-03-15","createdAt":1771036750155},
+    {"id":"po_4_1","poNumber":"A026-02","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-M-001","productName":"Orange Capybara 10\"","qtyOrdered":4000,"qtyReceived":0,"qtyRemaining":4000,"status":"Pending","expectedDate":"2026-03-15","createdAt":1771036750155},
+    {"id":"po_4_2","poNumber":"A026-02","supplierCode":"CPY_A01","supplierName":"Mars Factory","sku":"OG-M-003","productName":"Watermelon Capybara 10\"","qtyOrdered":2000,"qtyReceived":0,"qtyRemaining":2000,"status":"Pending","expectedDate":"2026-03-15","createdAt":1771036750155},
+    {"id":"po_5_1","poNumber":"B026-01","supplierCode":"CPY_A02","supplierName":"Star Textiles","sku":"OG-M-001","productName":"Orange Capybara 10\"","qtyOrdered":102,"qtyReceived":0,"qtyRemaining":102,"status":"Pending","expectedDate":"2026-03-20","createdAt":1771036750155},
+    {"id":"po_5_2","poNumber":"B026-01","supplierCode":"CPY_A02","supplierName":"Star Textiles","sku":"OG-M-002","productName":"Strawberry Capybara 10\"","qtyOrdered":458,"qtyReceived":0,"qtyRemaining":458,"status":"Pending","expectedDate":"2026-03-20","createdAt":1771036750155},
+    {"id":"po_5_3","poNumber":"B026-01","supplierCode":"CPY_A02","supplierName":"Star Textiles","sku":"OG-M-005","productName":"Violet Capybara 10\"","qtyOrdered":268,"qtyReceived":0,"qtyRemaining":268,"status":"Pending","expectedDate":"2026-03-20","createdAt":1771036750155},
+    {"id":"po_5_4","poNumber":"B026-01","supplierCode":"CPY_A02","supplierName":"Star Textiles","sku":"OG-M-008","productName":"Blueberry Capybara 10\"","qtyOrdered":96,"qtyReceived":0,"qtyRemaining":96,"status":"Pending","expectedDate":"2026-03-20","createdAt":1771036750155},
+    {"id":"po_5_5","poNumber":"B026-01","supplierCode":"CPY_A02","supplierName":"Star Textiles","sku":"OG-M-009","productName":"Cherry Capybara 10\"","qtyOrdered":119,"qtyReceived":0,"qtyRemaining":119,"status":"Pending","expectedDate":"2026-03-20","createdAt":1771036750155},
+    {"id":"po_5_6","poNumber":"B026-01","supplierCode":"CPY_A02","supplierName":"Star Textiles","sku":"OG-KEY-005","productName":"Violet Charm","qtyOrdered":87,"qtyReceived":0,"qtyRemaining":87,"status":"Pending","expectedDate":"2026-03-20","createdAt":1771036750155},
+    {"id":"po_5_7","poNumber":"B026-01","supplierCode":"CPY_A02","supplierName":"Star Textiles","sku":"OG-KEY-009","productName":"Cherry Charm","qtyOrdered":225,"qtyReceived":0,"qtyRemaining":225,"status":"Pending","expectedDate":"2026-03-20","createdAt":1771036750155},
+    {"id":"po_6_1","poNumber":"B026-02","supplierCode":"CPY_A02","supplierName":"Star Textiles","sku":"OG-M-001","productName":"Orange Capybara 10\"","qtyOrdered":4000,"qtyReceived":0,"qtyRemaining":4000,"status":"Pending","expectedDate":"2026-03-20","createdAt":1771036750155},
+    {"id":"po_6_2","poNumber":"B026-02","supplierCode":"CPY_A02","supplierName":"Star Textiles","sku":"OG-M-007","productName":"Matcha Capybara 10\"","qtyOrdered":2000,"qtyReceived":0,"qtyRemaining":2000,"status":"Pending","expectedDate":"2026-03-20","createdAt":1771036750155},
+    {"id":"po_6_3","poNumber":"B026-02","supplierCode":"CPY_A02","supplierName":"Star Textiles","sku":"OG-M-011","productName":"Croissant Capybara 10\"","qtyOrdered":2000,"qtyReceived":0,"qtyRemaining":2000,"status":"Pending","expectedDate":"2026-03-20","createdAt":1771036750155},
+    {"id":"po_6_4","poNumber":"B026-02","supplierCode":"CPY_A02","supplierName":"Star Textiles","sku":"OG-M-012","productName":"Coffee Capybara 10\"","qtyOrdered":2000,"qtyReceived":0,"qtyRemaining":2000,"status":"Pending","expectedDate":"2026-03-20","createdAt":1771036750155},
+    {"id":"po_7_1","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K2-MD","productName":"Kids Hoodie K2 MD","qtyOrdered":12,"qtyReceived":0,"qtyRemaining":12,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_2","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K2-XL","productName":"Kids Hoodie K2 XL","qtyOrdered":4,"qtyReceived":0,"qtyRemaining":4,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_3","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K3-LG","productName":"Kids Hoodie K3 LG","qtyOrdered":8,"qtyReceived":0,"qtyRemaining":8,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_4","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K3-SM","productName":"Kids Hoodie K3 SM","qtyOrdered":5,"qtyReceived":0,"qtyRemaining":5,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_5","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K3-XL","productName":"Kids Hoodie K3 XL","qtyOrdered":6,"qtyReceived":0,"qtyRemaining":6,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_6","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K4-SM","productName":"Kids Hoodie K4 SM","qtyOrdered":40,"qtyReceived":0,"qtyRemaining":40,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_7","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K5-LG","productName":"Kids Hoodie K5 LG","qtyOrdered":19,"qtyReceived":0,"qtyRemaining":19,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_8","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K5-MD","productName":"Kids Hoodie K5 MD","qtyOrdered":22,"qtyReceived":0,"qtyRemaining":22,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_9","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K5-SM","productName":"Kids Hoodie K5 SM","qtyOrdered":17,"qtyReceived":0,"qtyRemaining":17,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_10","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K5-XL","productName":"Kids Hoodie K5 XL","qtyOrdered":8,"qtyReceived":0,"qtyRemaining":8,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_11","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K5-XS","productName":"Kids Hoodie K5 XS","qtyOrdered":3,"qtyReceived":0,"qtyRemaining":3,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_12","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K6-LG","productName":"Kids Hoodie K6 LG","qtyOrdered":12,"qtyReceived":0,"qtyRemaining":12,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_13","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K6-MD","productName":"Kids Hoodie K6 MD","qtyOrdered":19,"qtyReceived":0,"qtyRemaining":19,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_14","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K6-SM","productName":"Kids Hoodie K6 SM","qtyOrdered":7,"qtyReceived":0,"qtyRemaining":7,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_15","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K6-XL","productName":"Kids Hoodie K6 XL","qtyOrdered":11,"qtyReceived":0,"qtyRemaining":11,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_16","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K7-LG","productName":"Kids Hoodie K7 LG","qtyOrdered":9,"qtyReceived":0,"qtyRemaining":9,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155},
+    {"id":"po_7_17","poNumber":"KH026-01","supplierCode":"CPY_B01","supplierName":"KH Apparel","sku":"OH-K7-XS","productName":"Kids Hoodie K7 XS","qtyOrdered":4,"qtyReceived":0,"qtyRemaining":4,"status":"Pending","expectedDate":"2026-03-30","createdAt":1771036750155}
+  ];
+  
+  localStorage.setItem('capy-purchase-orders', JSON.stringify(poLines));
+  
+  document.getElementById('status').innerHTML = '<div class="status success">✅ Imported 7 POs (67 line items, 64,506 units)<br><br>Redirecting to Purchase Orders...</div>';
+  
+  setTimeout(() => {
+    window.location.href = '/capy-inventory/#/purchase-orders';
+  }, 1500);
+}
+</script>
+</body>
+</html>
