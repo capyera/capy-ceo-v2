@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦫</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Capy Command | Capy-Era</title>
+    <meta name="description" content="CEO Command Center - Task and Project Management" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#10b981" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Capy Command" />
+    <link rel="apple-touch-icon" href="/capy-ceo-v2/icon-192.png" />
+    <link rel="manifest" href="/capy-ceo-v2/manifest.json" />
+    
+    <!-- Prevent zoom on input focus (iOS) -->
+    <style>
+      input, select, textarea {
+        font-size: 16px !important;
+      }
+    </style>
+    <script type="module" crossorigin src="/capy-ceo-v2/assets/index-5SxuT7yE.js"></script>
+    <link rel="stylesheet" crossorigin href="/capy-ceo-v2/assets/index-B4xnUxQq.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/capy-ceo-v2/sw.js')
+            .then((reg) => console.log('SW registered:', reg.scope))
+            .catch((err) => console.log('SW registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>
