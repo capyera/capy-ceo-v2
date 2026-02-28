@@ -1894,8 +1894,8 @@ export default function App() {
     setHoveredSlot(null);
     
     try {
-      // Create the daily plan
-      await upsertDailyPlan({
+      // Create the daily plan and get the returned data
+      const newPlan = await upsertDailyPlan({
         task_id: taskId,
         plan_date: dayStr,
         user_id: 'james',
@@ -1916,6 +1916,10 @@ export default function App() {
           start_time: startTime,
           estimated_minutes: durationMins
         });
+        
+        // Optimistically add plan to state immediately (with task data)
+        const planWithTask = { ...newPlan, task: { ...existingTask, due_date: dayStr, start_time: startTime, estimated_minutes: durationMins } };
+        setDailyPlans(prev => [...prev.filter(p => p.task_id !== taskId || p.plan_date !== dayStr), planWithTask]);
       }
       setTasks(prev => prev.map(t => t.id === taskId ? { 
         ...t, 
@@ -1924,6 +1928,7 @@ export default function App() {
         estimated_minutes: durationMins
       } : t));
       
+      // Also reload to ensure consistency
       await loadDailyPlans();
     } catch (err: any) {
       console.error('Drop failed:', err);
