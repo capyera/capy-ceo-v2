@@ -1,11 +1,11 @@
 {
-  "name": "Capy Inventory",
-  "short_name": "CapyStock",
-  "description": "Inventory management for Capy-Era",
-  "start_url": "/capy-inventory/",
+  "name": "Capy Command",
+  "short_name": "CapyCmd",
+  "description": "CEO Command Center for Capy-Era",
+  "start_url": "/capy-ceo-v2/",
   "display": "standalone",
-  "background_color": "#1a1a2e",
-  "theme_color": "#8B5A2B",
+  "background_color": "#0f172a",
+  "theme_color": "#10b981",
   "orientation": "portrait-primary",
   "icons": [
     {
